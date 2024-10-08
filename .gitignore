@@ -1,0 +1,51 @@
+# Backend (Java / Spring Boot) için .gitignore ayarları
+/target/
+/*.log
+*.log
+*.class
+*.war
+*.jar
+/.mvn/
+/.idea/
+/.project
+/.settings/
+/.DS_Store
+/*.iml
+
+# Dependency dizinleri
+/.gradle/
+/build/
+/out/
+
+# Maven
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/logs/
+*.log
+target/
+test-output/
+
+# Eclipse metadata
+/.classpath
+/.project
+/.settings/
+/.settings/
+
+# VS Code workspace settings
+.vscode/
+
+# Frontend (React) için .gitignore ayarları
+/node_modules/
+/build/
+/.cache/
+/.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS için gereksiz dosyalar
+.DS_Store
+
+# Windows için gereksiz dosyalar
+Thumbs.db
